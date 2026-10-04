@@ -1,4 +1,4 @@
-# Digital Electronics Circuit Designer (C++17)
+# Digital Electronics Circuit Designer
 
 A C++ object-oriented simulator in which **every logic gate and digital circuit is built from just two primitive gates: NAND and NOR**. Gates are combined into larger circuits (adders, latches, flip-flops, a 4-bit counter), simulated with chosen inputs, and the readings are exported as **CSV files for plotting in Excel**. The simulator can also run all gates **concurrently on multiple threads**.
 
