@@ -242,13 +242,3 @@ RESULT: ALL TESTS PASSED
 - **[class_diagram.mermaid](class_diagram.mermaid):** UML class diagram (open it at <https://mermaid.live> to view or export)
 
 ---
-
-## Possible extensions
-
-- More circuits: multiplexer, decoder, ALU, shift register, up/down counter with reset
-- Asynchronous reset/preset for flip-flops
-- Per-gate propagation delay and critical-path reporting
-- A netlist text-file parser, so circuits can be described without recompiling
-- VCD waveform export (viewable in GTKWave)
-- Event-driven simulation (only re-evaluate gates whose inputs changed)
-- Fault injection (stuck-at-0 / stuck-at-1) to demonstrate circuit testing
