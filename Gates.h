@@ -3,7 +3,7 @@
 #include "Component.h"
 using namespace std;
 
-// ------------------------- primitives -------------------------------------
+// NAND and NOR gates -------------------------------------
 class NandGate final : public Gate {
 public:
     NandGate(string name, Wire* a, Wire* b, Wire* out = nullptr)  // constructor
@@ -21,7 +21,7 @@ public:
 
 
 
-// ------------------------- derived gates ----------------------------------
+// derived gates ----------------------------------
 // A LogicBlock is a Circuit with one output wire.
 
 class LogicBlock : public Circuit {
@@ -34,7 +34,7 @@ protected:
 
 
 
-// ---- built from NAND only ----  not,or,xor,xnor
+// built from NAND only ------------------- not,or,and, xor,xnor
 class NotGate : public LogicBlock {           // NOT a = NAND(a,a)
 public: 
     NotGate(const string& name, Wire* a, Wire* out = nullptr) : LogicBlock(name) {
@@ -80,7 +80,7 @@ public:
 
 
 
-// ---- built from NOR only ----
+// built from NOR only ------------------------------
 class NotNorGate : public LogicBlock {        // NOT a = NOR(a,a)
 public:
     NotNorGate(const string& name, Wire* a) : LogicBlock(name) {
