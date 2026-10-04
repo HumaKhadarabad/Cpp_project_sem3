@@ -17,8 +17,7 @@ This project was built for the C++ OOP course (project idea: *Digital Electronic
 8. [Output files](#output-files)
 9. [Testing and verification](#testing-and-verification)
 10. [OOP concepts used](#oop-concepts-used)
-11. [Documentation](#documentation)
-12. [Possible extensions](#possible-extensions)
+
 
 ---
 
@@ -236,9 +235,3 @@ RESULT: ALL TESTS PASSED
 
 ---
 
-## Documentation
-
-- **[REPORT.md](REPORT.md):** full project report (design decisions, workflow, testing, contributions)
-- **[class_diagram.mermaid](class_diagram.mermaid):** UML class diagram (open it at <https://mermaid.live> to view or export)
-
----
